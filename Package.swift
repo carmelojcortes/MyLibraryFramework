@@ -6,16 +6,16 @@ let package = Package(
     platforms: [.iOS(.v14)],
     products: [
         .library(
-            name: "MyLibCore",
-            targets: ["MyLibCore"]),
+            name: "MyLib",
+            targets: ["MyLib"]),
     ],
     dependencies: [
     ],
     targets: [
         .binaryTarget(
-            name: "MyLibCore",
-            url: "https://github.com/carmelojcortes/MyLibrary/releases/download/release%2Ftest13/MyLibCore.zip",
-            checksum: "1ea147b0072b8e68ff11f044612bf59f8377949aed33d74f7ae32dcb93de73d4"
+            name: "MyLib",
+            url: "https://github.com/carmelojcortes/MyLibrary/releases/download/release%2Ftest13/MyLib.zip",
+            checksum: "454095c523cf43b86951f9714baf82d0adf8cfba89c08e238852f85cc435b799"
         )
     ]
 )
